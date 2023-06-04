@@ -1,0 +1,29 @@
+
+.field-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.field-item > label {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  text-align: left;
+}
+
+.field-item input {
+  font-size: 16px;
+  line-height: 36px;
+  padding: 0 12px;
+}
+
+.field-item button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
